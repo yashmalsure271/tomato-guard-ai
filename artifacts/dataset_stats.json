@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Project-AgML/tomato_leaf_disease",
+  "source_url": "https://huggingface.co/datasets/Project-AgML/tomato_leaf_disease",
+  "total_images": 11000,
+  "num_classes": 10,
+  "class_names": [
+    "Bacterial Spot",
+    "Early Blight",
+    "Healthy",
+    "Late Blight",
+    "Leaf Mold",
+    "Septoria Leaf Spot",
+    "Spider Mites Two-spotted Spider Mite",
+    "Target Spot",
+    "Tomato Mosaic Virus",
+    "Tomato Yellow Leaf Curl Virus"
+  ],
+  "class_counts": {
+    "Bacterial Spot": 1100,
+    "Early Blight": 1100,
+    "Healthy": 1100,
+    "Late Blight": 1100,
+    "Leaf Mold": 1100,
+    "Septoria Leaf Spot": 1100,
+    "Spider Mites Two-spotted Spider Mite": 1100,
+    "Target Spot": 1100,
+    "Tomato Mosaic Virus": 1100,
+    "Tomato Yellow Leaf Curl Virus": 1100
+  },
+  "splits": {
+    "train": 7700,
+    "validation": 1650,
+    "test": 1650,
+    "strategy": "Stratified 70/15/15 split of the single Hugging Face train split",
+    "seed": 42
+  },
+  "index_sha256": {
+    "train": "b223ea2844daef3ecaef8d8e243cc9e84c82d4aaaf6b00606ee7b4889ad53300",
+    "validation": "6fd3a5e6e9e41548754153bf70358e7afa89b48a2c29f34d148244e684f73557",
+    "test": "ab595ec1eaf0c72e13f7e544e252f7756a3ce52ec0fdf59cc433babeb1c58779"
+  },
+  "image_sizes": {
+    "256x256": 11000
+  },
+  "image_modes": {
+    "RGB": 11000
+  },
+  "features": [
+    "image",
+    "label"
+  ],
+  "label_type": "10-class single-label classification",
+  "prepared_at": "2026-11-18T14:40:49.041656+00:00"
+}

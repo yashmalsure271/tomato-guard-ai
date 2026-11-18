@@ -1,0 +1,24 @@
+{
+  "test_size": 1650,
+  "count": 3,
+  "items": [
+    {
+      "file": "assets/test_mistakes/mistake_01_true-target_spot_pred-septoria_leaf_spot.png",
+      "actual": "Target Spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.30135902762413025
+    },
+    {
+      "file": "assets/test_mistakes/mistake_02_true-late_blight_pred-healthy.png",
+      "actual": "Late Blight",
+      "predicted": "Healthy",
+      "confidence": 0.9998953342437744
+    },
+    {
+      "file": "assets/test_mistakes/mistake_03_true-target_spot_pred-healthy.png",
+      "actual": "Target Spot",
+      "predicted": "Healthy",
+      "confidence": 0.8451641798019409
+    }
+  ]
+}

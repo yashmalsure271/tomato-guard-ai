@@ -1,0 +1,9 @@
+{
+  "identical_predictions": true,
+  "changed_predictions": 0,
+  "test_size": 1650,
+  "max_absolute_probability_difference": 0.0027320384979248047,
+  "fp32_accuracy": 0.9981818181818182,
+  "deployed_checkpoint_accuracy": 0.9981818181818182,
+  "checkpoint_storage": "float16 state_dict loaded into a float32 model"
+}
